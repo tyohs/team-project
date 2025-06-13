@@ -1,2 +1,2 @@
 # team-project
-CS演習チーム3(cs-exercise team3)
+クラス２CS演習チーム3(cs-exercise team3)
