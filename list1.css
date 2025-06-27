@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-image: url("d2a81d3c-aafd-4a3b-9cfa-03fdbfc47b6d.png");
+  background-image: url("haikei1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-color: #1e1e1e;
+  background-color: #f0f0f0;
   color: #f0f0f0;
   line-height: 1.6;
 }
@@ -68,11 +68,18 @@ main {
   color: #aaaaaa;
 }
 
+.store-list a2 {
+  color: #4e9eff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .store-list a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
+
 
 .store-list a:hover {
   text-decoration: underline;
@@ -86,9 +93,18 @@ footer {
 }
 
 footer a {
-  color: #4e9eff;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.9);
   text-decoration: none;
 }
+
+
+
+
+
+
+
+
 
 /* モバイル対応 */
 @media (max-width: 600px) {
