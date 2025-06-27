@@ -2,11 +2,17 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-image: url("haikei1.jpg");
-  background-size: contain;
-  background-position: center center;
   background-color: #f0f0f0;
   color: #f0f0f0;
   line-height: 1.6;
+
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-color: #000;
+
+
 }
 
 header {
