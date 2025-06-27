@@ -20,7 +20,7 @@ header {
 
 header h1 {
   margin: 0;
-  color: #4e9eff;
+  color: #ffffff;
   font-size: 1.8rem;
 }
 
@@ -69,7 +69,7 @@ main {
 }
 
 .store-list a {
-  color: #4e9eff;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
