@@ -2,8 +2,8 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-image: url("haikei1.jpg");
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: center center;
   background-color: #f0f0f0;
   color: #f0f0f0;
   line-height: 1.6;
@@ -16,7 +16,6 @@ header {
 
 header h1 {
   color: #ffffff;
-  font-size: 1.8rem;
 }
 
 main {
@@ -91,36 +90,4 @@ footer a {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.9);
   text-decoration: none;
-}
-
-
-
-
-
-
-
-
-
-/* モバイル対応 */
-@media (max-width: 600px) {
-  .store-list li {
-    flex-direction: column;
-  }
-
-  .store-list img {
-    width: 100%;
-    height: auto;
-  }
-
-  main {
-    padding: 1rem;
-  }
-
-  header h1 {
-    font-size: 1.5rem;
-  }
-
-  .store-list h2 {
-    font-size: 1rem;
-  }
 }
