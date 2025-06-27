@@ -3,23 +3,18 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-image: url("haikei1.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   background-color: #f0f0f0;
   color: #f0f0f0;
   line-height: 1.6;
 }
 
 header {
-  background-color: rgba(42, 42, 42, 0.9);
   padding: 1rem 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
 header h1 {
-  margin: 0;
   color: #ffffff;
   font-size: 1.8rem;
 }
@@ -27,7 +22,7 @@ header h1 {
 main {
   padding: 2rem;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
 }
 
 .store-list {
@@ -43,6 +38,7 @@ main {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: -1rem;
 }
 
 .store-list img {
@@ -69,13 +65,13 @@ main {
 }
 
 .store-list a2 {
-  color: #4e9eff;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
 
 .store-list a {
-  color: #ffffff;
+  color: #4e9eff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -88,8 +84,7 @@ main {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: rgba(42, 42, 42, 0.9);
-  border-top: 1px solid #444444;
+
 }
 
 footer a {
