@@ -1,0 +1,115 @@
+/* 全体の基本設定 */
+body {
+  background-color: #fdfaf4;
+  margin: 0;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #5c4033;
+}
+
+/* ヘッダー */
+header {
+  background-color: #e8a462;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 700;
+}
+
+/* メインコンテンツエリア */
+main {
+  padding: 40px 20px;
+  max-width: 800px; /* リスト全体の最大幅を指定 */
+  margin: 0 auto; /* 中央揃え */
+}
+
+/* 店舗リスト全体 */
+.store-list {
+  list-style: none; /* リストの黒点を削除 */
+  padding: 0;
+  margin: 0;
+}
+
+/* 各店舗カード (liタグ) */
+.store-list li {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px; /* カード間の余白 */
+  display: flex; /* 画像とテキスト情報を横並びに */
+  align-items: center; /* 縦方向の中央揃え */
+  overflow: hidden; /* 画像の角を丸くするため */
+  transition: all 0.3s ease;
+}
+
+.store-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* カード内の画像 */
+.store-list img {
+  width: 180px; /* 画像の幅を固定 */
+  height: 180px; /* 画像の高さを固定 */
+  object-fit: cover; /* 画像の比率を保ったままトリミング */
+}
+
+/* カード内のテキストエリア (div) */
+.store-list div {
+  padding: 20px;
+  flex: 1; /* 残りのスペースをすべて使う */
+}
+
+/* 店名 (h2) */
+.store-list h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.5em;
+}
+
+/* 説明文 (p) */
+.store-list p {
+  margin: 0 0 20px 0;
+  font-size: 1em;
+  color: #7c685a;
+}
+
+/* 詳細を見るボタン (a) */
+.store-list a {
+  background-color: #e8a462;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  display: inline-block; /* パディングなどを有効にするため */
+  transition: background-color 0.3s ease;
+}
+
+.store-list a:hover {
+  background-color: #d98d30; /* マウスを乗せたら少し濃い色に */
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px 0 40px 0;
+}
+
+/* トップに戻るリンク */
+footer a {
+  color: #5c4033;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #5c4033;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  background-color: #5c4033;
+  color: white;
+}
