@@ -13,8 +13,8 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.hero-banner {
-  height: 450px;
+.banner {
+  height: 500px;
   background-image: url("banner.png");
   background-size: cover;
   background-position: center;
@@ -37,7 +37,6 @@ header {
   line-height: 1.8;
 }
 header h1 {
-  margin: 0;
   font-weight: 700;
 }
 .genre {
