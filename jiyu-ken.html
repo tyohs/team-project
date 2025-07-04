@@ -2,25 +2,58 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>店舗詳細</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>店舗詳細 | 自由軒</title>
+    <link rel="stylesheet" href="list2_detail.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>店舗紹介ページ</h1>
+      <h1>自由軒</h1>
     </header>
 
     <main>
-      <img src="#" alt="店舗画像" />
-      <h2>自由軒</h2>
-      <p>おすすめ：ハンバーグ定食（ふっくら手ごね＆濃厚デミ）</p>
-      <p>営業時間：10:00〜14:00／16:00〜21:00（※昼休憩あり</p>
-      <p>住所：東京都北区赤羽南1-6-4 赤羽南口駅前ビル1F</p>
+      <div class="shop-container">
+        <div class="shop-image">
+          <img src="jiyu-ken.png" alt="自由軒のハンバーグ定食" />
+        </div>
+
+        <div class="shop-info">
+          <h2>昭和レトロでワンコイン満腹定食！</h2>
+          <dl>
+            <dt>おすすめ</dt>
+            <dd>ハンバーグ定食（ふっくら手ごね＆濃厚デミ）</dd>
+            <dt>営業時間</dt>
+            <dd>10:00〜14:00／16:00〜21:00（※昼休憩あり）</dd>
+            <dt>住所</dt>
+            <dd>東京都北区赤羽南1-6-4 赤羽南口駅前ビル1F</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="map-container">
+        <h3>アクセスマップ</h3>
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.9253930979276!2d139.71944707559624!3d35.77720897255639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601892fd35ec9107%3A0x43fd13b865dd72ff!2z44GK6aOf5LqL5YemIOiHqueUsei7kg!5e0!3m2!1sja!2sjp!4v1751604022528!5m2!1sja!2sjp"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
     </main>
 
     <footer>
-      <a href="list2.html">店舗一覧に戻る</a> |
-      <a href="index.html">トップに戻る</a>
+      <a href="list2.html" class="button">店舗一覧に戻る</a>
+      <a href="index.html" class="button">トップに戻る</a>
     </footer>
   </body>
 </html>

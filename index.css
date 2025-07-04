@@ -14,8 +14,8 @@ header {
 }
 
 .hero-banner {
-  height: 350px;
-  background-image: url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1974&auto=format&fit=crop"); /* 仮の美味しそうな料理の画像 */
+  height: 450px;
+  background-image: url("banner.png");
   background-size: cover;
   background-position: center;
   border-radius: 8px;

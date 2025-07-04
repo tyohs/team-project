@@ -2,27 +2,60 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>店舗詳細</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>店舗詳細 | 来々軒</title>
+    <link rel="stylesheet" href="list2_detail.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>店舗紹介ページ</h1>
+      <h1>来々軒 赤羽店</h1>
     </header>
 
     <main>
-      <img src="#" alt="店舗画像" />
-      <h2>来々軒　赤羽店</h2>
-      <p>おすすめ：青椒肉絲定食（シャキシャキ野菜×特製タレ）</p>
-      <p>
-        営業時間：10:00〜翌02:00〈月-木〉／10:00〜翌04:00〈金土〉／10:00〜23:30〈日祝〉
-      </p>
-      <p>住所：東京都北区赤羽1-21-3 沼野ビル</p>
+      <div class="shop-container">
+        <div class="shop-image">
+          <img src="rairaikenmeshi.png" alt="来々軒の青椒肉絲定食" />
+        </div>
+
+        <div class="shop-info">
+          <h2>深夜まで続くデカ盛りパラダイス！</h2>
+          <dl>
+            <dt>おすすめ</dt>
+            <dd>青椒肉絲定食（シャキシャキ野菜×特製タレ）</dd>
+            <dt>営業時間</dt>
+            <dd>
+              10:00〜翌02:00〈月-木〉／10:00〜翌04:00〈金土〉／10:00〜23:30〈日祝〉
+            </dd>
+            <dt>住所</dt>
+            <dd>東京都北区赤羽1-21-3 沼野ビル</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="map-container">
+        <h3>アクセスマップ</h3>
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.8034571214926!2d139.7205931!3d35.780204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018931cdfbe466d%3A0xab75e7d577924d72!2z5p2l5p2l6LuSIOi1pOe-veW6lw!5e0!3m2!1sja!2sjp!4v1751603969225!5m2!1sja!2sjp"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
     </main>
 
     <footer>
-      <a href="list2.html">店舗一覧に戻る</a> |
-      <a href="index.html">トップに戻る</a>
+      <a href="list2.html" class="button">店舗一覧に戻る</a>
+      <a href="index.html" class="button">トップに戻る</a>
     </footer>
   </body>
 </html>
